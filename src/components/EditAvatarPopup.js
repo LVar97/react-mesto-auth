@@ -6,7 +6,7 @@ function EditAvatarPopup(props) {
 
 	React.useEffect(() => {
 		avatarRef.current.value = '';
-	});
+	}, [props.isOpen]);
 
 	function handleSubmit(e) {
 		e.preventDefault();

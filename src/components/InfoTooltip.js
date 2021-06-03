@@ -1,5 +1,5 @@
 function InfoTooltip(props){
-	console.log(props.src)
+	// console.log(props.src)
 
 	return(
 

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 function Header(props){
-
 	const history = useHistory();
 
 	function signOut(){

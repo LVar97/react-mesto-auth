@@ -9,7 +9,7 @@ function AddPlacePopup(props) {
 	React.useEffect(() => {
 		nameRef.current.value = '';
 		linkRef.current.value = '';
-	});
+	}, [props.isOpen]);
 
 	function handleSubmit(e) {
 		// Запрещаем браузеру переходить по адресу формы

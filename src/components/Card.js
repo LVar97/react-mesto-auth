@@ -35,7 +35,7 @@ function Card({card, onCardLike, onCardClick, onCardDelete}) {
 
 	return(
 		<li className="element">
-			<img src={card.link} alt="#" className="element__image" onClick={handleClick}/>
+			<img src={card.link} alt={card.name} className="element__image" onClick={handleClick}/>
 			<button className={cardDeleteButtonClassName} onClick={handleDeleteClick} aria-label="delete" type="button" />
 			<div className="element__heading">
 				<h2 className="element__title">{card.name}</h2>
